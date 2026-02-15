@@ -131,7 +131,7 @@ extras_require_xbr = [
     # ImportError: cannot import name 'getargspec' from 'inspect'
     # https://github.com/ethereum/web3.py/issues/2704#issuecomment-1369041219
     # pip install git+https://github.com/ethereum/web3.py.git
-    "web3[ipfs]>=6.20.0",  # MIT license
+    "web3>=6.20.0",  # MIT license
     # the following is needed for EIP712 ("signed typed data"):
     "rlp>=2.0.1",  # MIT license
     "py-eth-sig-utils>=0.4.0",  # MIT license (https://github.com/rmeissner/py-eth-sig-utils)
